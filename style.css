@@ -1,0 +1,37 @@
+
+
+video {
+    z-index: -1;
+    position: absolute;
+}
+
+.navbar a, body {
+    color: #fff;
+}
+
+.nav-right a {
+    transition: 0.5s;
+}
+
+.nav-right ul:hover a:not(:hover) {
+    filter: blur(5px);
+    /* transition: 0.5s; */
+}
+
+.nav-right a:hover {
+    color: aqua;
+    text-shadow: 0 0 10px aqua;
+    font-weight: bold;
+    /* transition: 0.5s; */
+}
+
+.nav-left a{
+    transition: 0.5s;
+}
+
+.nav-left a:hover {
+    color: aqua;
+    text-shadow: 0 0 10px aqua;
+    font-weight: bold;
+    /* transition: 0.5s; */
+}
