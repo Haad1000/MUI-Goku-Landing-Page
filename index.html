@@ -5,59 +5,76 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MUI Goku Landing Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
 
-    <!-- <video autoplay loop muted>
+    <video autoplay loop muted>
         <source src="./Goku Manga Edit.mp4">
-    </video> -->
+    </video>
 
     <nav>
-        <div class="navbar">
-            <div class="nav-left">
-                <h1>
-                    <a class="nav-item" href="https://github.com/Haad1000">Haad Cheema</a>
+        <div id="navbar" class="navbar">
+            <div id="git-link">
+                <h1 id="my-name">
+                    <a href="https://github.com/Haad1000">Haad Cheema</a>
                 </h1>
             </div>
 
-            <div class="nav-right">
+            <div id="nav-right">
                 <ul>
-                    <li><a class="nav-item" href="#">Home</a></li>
-                    <li><a class="nav-item"  href="#">About Goku</a></li>
-                    <li><a class="nav-item"  href="#">Contact</a></li>
-                    <li><a class="nav-item"  href="#">Location</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Goku</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Location</a></li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <div>
-        <div>
-            <div>
-                <h1>Goku MUI</h1>
-            </div>
-            
-            <div>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab, quasi laborum aut recusandae odio tempore impedit praesentium eligendi, sed blanditiis vel unde repellendus minima ducimus quo, maxime totam labore! Quos.</p>
-            </div>
+    <main>
+        <div id="main-content">
+            <h1>
+                Goku
+            </h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque voluptate iusto nihil, saepe vel aut
+                minima veniam! Libero delectus esse rem ducimus atque voluptates. Sed explicabo nostrum eaque cum
+                itaque!</p>
         </div>
 
-        <div>
-            <div>
-                <button>Button Left</button>
-                <button>Button Right</button>
+        <div id="buttons">
+            <div id="audio-button">
+                <ul>
+                    <button type="button" class="btn">Learn More<i class="bi bi-volume-up"></i></button>
+                    <button type="button" class="btn">Browse <i class="bi bi-volume-up"></i></button>
+                </ul>
             </div>
 
-            <div>
-                <button>Facebook</button>
-                <button>Instagram</button>
-                <button>YouTube</button>
-                <button>LinkedIn</button>
+            <div id="social-button">
+                <ul>
+                    <button type="button" class="btn bi bi-facebook active"></button>
+                    <button type="button" class="btn bi bi-youtube active"></button>
+                    <button type="button" class="btn bi bi-instagram active"></button>
+                    <button type="button" class="btn bi bi-threads-fill active"></button>
+                    <button type="button" class="btn bi bi-linkedin active"></button>
+                    <button type="button" class="btn bi bi-snapchat active"></button>
+                    <button type="button" class="btn bi bi-pinterest active"></button>
+                    <button type="button" class="btn bi bi-whatsapp active"></button>
+                    <button type="button" class="btn bi bi-twitter active"></button>
+                    <button type="button" class="btn bi bi-twitter-x active"></button>
+                    <button type="button" class="btn bi bi-tiktok active"></button>
+                    <button type="button" class="btn bi bi-reddit active"></button>
+                </ul>
             </div>
         </div>
-    </div>
+    </main>
 </body>
 
 </html>
