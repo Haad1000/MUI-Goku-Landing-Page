@@ -52,19 +52,19 @@ video {
 }
 
 #navbar a:hover {
-    color: aqua;
-    text-shadow: 0 0 10px #fff;
+    color: #F02070;
+    text-shadow: 0 0 10px violet;
 }
 
 #navbar h1 {
-    padding-left: 18vw;
+    padding-left: 16vw;
     font-family: 'sd-asian';
 }
 
 #navbar ul {
     list-style-type: none;
     display: flex;
-    padding-right: 18vw;
+    padding-right: 16vw;
 }
 
 #navbar ul a {
@@ -95,7 +95,7 @@ p {
 
 #main-content p {
     font-size: 2.25vh;
-    margin-top: 5vh;
+    margin: 5vh 10vw 0 10vw;
     font-family: 'Poppins'
 }
 
@@ -116,15 +116,15 @@ p {
 }
 
 #audio-button button:hover {
-    background-color: #00a0c0;
-    box-shadow: 0 10px 25px 3px aqua;
+    background-color: #F02070;
+    box-shadow: 0 10px 25px 3px purple;
     filter: drop-shadow(6px 6px 10px blueviolet);
     transform: translateY(-5px);
     transition: 0.5s ease-in-out;
 }
 
 #audio-button ul:hover button:not(:hover) {
-    box-shadow: 0 5px 25px 3px aqua;
+    box-shadow: 0 5px 25px 3px blueviolet;
     transform: translateY(-3px);
     transition: 0.5s ease-in-out;
     filter: blur(1px);
@@ -143,15 +143,15 @@ p {
 }
 
 #social-button button:hover {
-    background-color: #00a0c0;
-    box-shadow: 0 5px 25px 12px aqua;
-    filter: drop-shadow(0px 3px 10px purple);
+    background-color: #F02070;
+    box-shadow: 0 5px 25px 12px purple;
+    filter: drop-shadow(0px 3px 10px blueviolet);
     transform: translateY(-3px);
     transition: 0.5s ease-in-out;
 }
 
 #social-button ul:hover button:not(:hover) {
-    box-shadow: 0 5px 25px 3px aqua;
+    box-shadow: 0 5px 25px 3px violet;
     transform: translateY(-1.5px);
     transition: 0.5s ease-in-out;
     filter: blur(1px);
