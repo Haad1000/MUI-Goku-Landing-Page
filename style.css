@@ -151,7 +151,7 @@ p {
 }
 
 #social-button ul:hover button:not(:hover) {
-    box-shadow: 0 5px 25px 3px violet;
+    box-shadow: 0 5px 25px 3px blueviolet;
     transform: translateY(-1.5px);
     transition: 0.5s ease-in-out;
     filter: blur(1px);
